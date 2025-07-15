@@ -1,0 +1,21 @@
+﻿{
+  "profiles": {
+    "Instance1": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Instance1"
+      },
+      "applicationUrl": "http://localhost:5131",
+      "dotnetRunMessages": true
+    },
+    "Instance2": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Instance2"
+      },
+      "applicationUrl": "http://localhost:5132",
+      "dotnetRunMessages": true
+    },
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json"
+}
