@@ -50,7 +50,7 @@ builder.Services.AddMassTransit(x =>
         cfg.Host("rabbitmq://localhost");
 
         var instance = InstanceInfo.InstanceId;
-        cfg.ReceiveEndpoint($"collaborators-query-{instance}", e =>
+        cfg.ReceiveEndpoint($"location-query-{instance}", e =>
         {
             e.ConfigureConsumers(context);
         });

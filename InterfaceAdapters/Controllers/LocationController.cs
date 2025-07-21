@@ -29,7 +29,7 @@ public class LocationController : ControllerBase
         return result.ToActionResult();
     }
 
-    [HttpGet("/all/details")]
+    [HttpGet("all/details")]
     public async Task<ActionResult<IEnumerable<LocationDTO>>> GetAllWithDetails()
     {
         var result = await _service.GetAllWithDetailsAsync();
